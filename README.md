@@ -1,4 +1,28 @@
 # Sistema de Gestión Comercial (SIGC)
+#Introducción
+SIGC es una aplicación web completa desarrollada con PHP nativo y MySQL, diseñada para gestionar todos los procesos operativos de un negocio pequeño o mediano. El sistema implementa operaciones CRUD completas, un sistema de inventario automático y un módulo de facturación profesional.
+
+#Objetivos del Proyecto:
+
+Automatizar la gestión de clientes, proveedores y productos
+
+Controlar inventario en tiempo real con actualización automática
+
+Generar facturas con cálculos automáticos de impuestos
+
+Proporcionar un dashboard con métricas empresariales clave
+
+Servir como proyecto académico demostrando habilidades en PHP/MySQL
+
+#Público Objetivo:
+
+Pequeñas y medianas empresas (PYMES)
+
+Estudiantes de desarrollo web
+
+Desarrolladores que buscan un ejemplo de sistema completo
+
+Emprendedores que necesitan un sistema de gestión básico
 
 Aplicación web desarrollada con PHP y MySQL para administrar procesos esenciales de un negocio: control de clientes, proveedores, productos, compras y ventas.
 
@@ -28,10 +52,16 @@ Aplicación web desarrollada con PHP y MySQL para administrar procesos esenciale
 
 ## Instalación Paso a Paso
 
-### 1. Clonar el Repositorio
-```bash
-# Clonar el repositorio
-git clone https://github.com/Victor_Sainz_25/SIGC.git
+### 1. Clonar desde GitHub
+# 1. Abrir terminal/consola en la carpeta donde quieres el proyecto
+cd /ruta/deseada
 
-# Navegar al directorio del proyecto
-cd SIGC
+# 2. Clonar el repositorio
+git clone git clone https://github.com/Victor_Sainz_25/SIGC.git
+
+# 3. Acceder a la carpeta del proyecto
+cd sigc-sistema-gestion
+
+# 4. Verificar que los archivos se copiaron correctamente
+dir  # En Windows
+ls -la  # En Linux/macOS
